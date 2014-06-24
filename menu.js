@@ -1,68 +1,49 @@
 
-$(document).ready(function () {        
+$(document).ready(function () { 
+
+       
  if($(this).find('.retirebackground').length)
     $('.retireactive').hide();
-   
 
+ if($(this).find('.resultsbackground').length)
+    $('.resultsactive').hide();
             
             $("#retire").click(function () {
-               //$("#button2").css({"left": "602px"});
+                $('.retirebackground_2').removeClass('retirebackground_2').addClass('retirebackground_1');
                 $('.results_steps').show();
-                
+                $('.resultsbackground').show();
+                $('.resultsactive').hide();
                 $('.retirebackground').hide();
-                //$('#button').removeClass('retirebackground');
                 $('.retireactive').show();
-
-                //$("#button").toggleClass(function(){
-                    //$("#button").css({"left": "330px"});
-                   // $("#retire").css("overflow");
+  
                     
-                            //if($(this).is(".retirebackground")){return 'retireactive';}
-                                //else
-                                   // if($(this).is(".retirebackground retireactive")){return "retiresultsbackground";}
-                                        
-                   
 
-                   // });
-                //$('.retireactive').animate({"left":""}, 'fast');   
-                    $('.retire_steps').show();
-
-                  if($(this).find('.retireactive').length)
-                        $('.retire_steps').hide();
+            if($(this).find('.retireactive').length)
+                $('.retire_steps').hide();
                         
-            
-});
+            if($("#nav").find('.resultsbackground_1').length)
+                        $('.resultsbackground_1').removeClass('resultsbackground_1').addClass('resultsbackground_2');
 });
 
 
             $("#results").click(function () {
-               // $("#button").css({"left": "330px"});
-               $('.retirebackground').show();
-               $('.retireactive').hide();
-              $('.retire_steps').show();
-              $('.retireactive').removeClass('retireactive');
-              $("#button2").addClass('resultsactive');        
-
-                //$("#button2").toggleClass(function(){
-                    //$("#button2").css({"left": "602px"});
-                   // $("#results").css("overflow");
-                           // if($(this).is(".resultsbackground")){return "resultsactive";} 
-                               // else
-                                    //if($(this).is(".resultsbackground resultsactive")){return "resultsbackground";}
-                                        
-                             
-                   // });
-
-                //$('.resultsactive').animate({"left":""}, 'fast');
-               // $('.resultsactive').css("overflow","hidden");
-                    $('.results_steps').show();
+                $('.resultsbackground_2').removeClass('resultsbackground_2').addClass('resultsbackground_1');
+                $('.retire_steps').show();
+                $('.retirebackground').show();
+                $('.retireactive').hide();
+                $('.resultsbackground').hide(); 
+                $('.resultsactive').show();
+           
 
                   if($(this).find('.resultsactive').length)
                         $('.results_steps').hide();
 
-                  
+                    if($("#nav").find('.retirebackground_1').length)
+                        $('.retirebackground_1').removeClass('retirebackground_1').addClass('retirebackground_2');
+                        
+
 
 
           
 });
-  
+});  
