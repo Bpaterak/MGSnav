@@ -8,6 +8,7 @@ $(document).ready(function () {
             $("#retire").click(function () {
                //$("#button2").css({"left": "602px"});
                 $('.results_steps').show();
+                
                 $('.retirebackground').hide();
                 //$('#button').removeClass('retirebackground');
                 $('.retireactive').show();
