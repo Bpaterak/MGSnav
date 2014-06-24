@@ -1,10 +1,3 @@
-Finished-V1
-
-"Steps" Within box
-
-Menu Buttons Working
-
-Switching Working
-No Animation
+WORKING* V2
 
 6/24/14
