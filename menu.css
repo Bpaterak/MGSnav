@@ -1,0 +1,160 @@
+
+ ul {
+
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+
+}
+
+#nav {
+list-style: none;
+width:1150px;
+height:116px;
+}
+
+#nav li {
+
+	white-space: nowrap;
+	display: inline-block;
+	margin-left:10px;
+	height:116px;
+	width: 230px;
+}
+
+
+/* welcome */
+
+.welcome {
+	
+	/*position:fixed;*/
+display:inline-block;
+background-image:url("images/welcome.png");
+background-repeat:no-repeat;
+height: 116px;
+width:222px;
+}
+
+/* action */
+
+.action {
+	left:;
+	position:fixed;
+display:inline-block;
+background-image:url("images/action.png");
+background-repeat:no-repeat;
+height: 116px;
+width:222px;
+}
+/* retire */
+
+#retire {
+	
+max-height:116px;
+max-width:300px;
+overflow: hidden;
+display:inline-block;
+}
+
+.retire_steps {
+	z-index:99;
+	margin: 100px 5px 0 178px;
+	background-image: url("images/retire/retire_steps.png");
+	display:block;
+	width:35px;
+	height:10px;
+}
+
+.retirebackground {
+
+	z-index:-2;
+	position:fixed;
+display:inline-block;
+background-image:url("images/retire/1box.png");
+background-repeat:no-repeat;
+height: 116px;
+width:222px;
+}
+
+.retire {
+position:fixed;
+display:inline-block;
+background-image:url("images/retire/retire.png");
+background-repeat:no-repeat;
+width: 222px;
+height:116px;
+}
+
+.retireactive {
+	position:fixed;
+	display:inline-block;
+		background-image:url("images/retire/sub.png");
+	background-repeat:no-repeat;
+	background-size: 100%;
+	width:222px;
+	height:116px;
+	margin-top:90px;
+	/*margin-left:330px;
+*/}
+
+
+
+/* results */
+
+#results {
+	margin-left:10px;
+	max-height:116px;
+	max-width:300px;
+	overflow: hidden;
+	display:inline-block;
+}
+
+.results_steps {
+	z-index:99;
+	margin: 100px 1px 0 178px;
+	background-image: url("images/results/results_steps.png");
+	display:inline-block;
+	width:35px;
+	height:10px;
+}
+
+.resultsbackground {
+	z-index: -1;
+position:fixed;
+display:inline-block;
+background-image:url("images/results/1box.png");
+background-repeat:no-repeat;
+height: 116px;
+width:222px;
+}
+
+.results {
+position:fixed;
+display:inline-block;
+background-image:url("images/results/results.png");
+background-repeat:no-repeat;
+width: 222px;
+height:116px;
+}
+
+#button2 {
+	overflow: hidden;
+}
+.resultsactive {
+	overflow:hidden;
+	position:fixed;
+	display:inline-block;
+	background-image:url("images/results/sub.png");
+	background-repeat:no-repeat;
+	background-size: 100%;
+	width:222px;
+	height:116px;
+	margin-top:90px;
+	/*margin-left:602px;
+
+*/}
+
+
