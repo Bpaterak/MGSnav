@@ -1,14 +1,16 @@
 
 $(document).ready(function () {        
- 
+ if($(this).find('.retirebackground').length)
+    $('.retireactive').hide();
    
 
             
             $("#retire").click(function () {
                //$("#button2").css({"left": "602px"});
                 $('.results_steps').show();
-                $('.resultsactive').removeClass('resultsactive');
-                $("#button").addClass('retireactive');
+                $('.retirebackground').hide();
+                //$('#button').removeClass('retirebackground');
+                $('.retireactive').show();
 
                 //$("#button").toggleClass(function(){
                     //$("#button").css({"left": "330px"});
@@ -34,6 +36,8 @@ $(document).ready(function () {
 
             $("#results").click(function () {
                // $("#button").css({"left": "330px"});
+               $('.retirebackground').show();
+               $('.retireactive').hide();
               $('.retire_steps').show();
               $('.retireactive').removeClass('retireactive');
               $("#button2").addClass('resultsactive');        
