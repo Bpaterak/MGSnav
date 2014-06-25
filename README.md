@@ -1,4 +1,8 @@
-MASTER FILES*
+STYLES*
+
+
+
+FORK FROM MASTER*
 
 -working files will now be *styles*
 
