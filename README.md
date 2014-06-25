@@ -1,6 +1,7 @@
 MASTER FILES*
 
--working files will now be *styles*
+- Style BRANCH STYLESMASTER->STYLESV1
+- JS BRANCH JSMASTER->JSV1
 
 6/25/14
 *merged all working branches
