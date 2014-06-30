@@ -1,3 +1,9 @@
+*smaller images
+*smaller nav
+*stretch
+*added side buttons
+
+
 MASTER STYLES BRANCH *
 
 
