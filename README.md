@@ -1,4 +1,14 @@
-MASTER FILES*
+*smaller images
+*smaller nav
+*stretch
+*added side buttons
+
+
+MASTER STYLES BRANCH *
+
+
+
+FORK FROM MASTER*
 
 - Style BRANCH STYLESMASTER->STYLESV1
 - JS BRANCH JSMASTER->JSV1
