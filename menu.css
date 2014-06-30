@@ -14,10 +14,11 @@ html {
 }
 
 #content {
-	border-top:1px solid #939393;
+	z-index: 2;
+	border-top:1px solid #adadad;
 	margin-top:10px;
 	margin-left:40px;
-	width:1150px;
+	width:900px;
 }      
 
 ul {
@@ -35,7 +36,8 @@ user-select: none;
 }
 
 #nav {
-	margin-left:45px;
+	z-index:1;
+	margin-left:px;
 	width:1600px;
 	height:59px;
 }
@@ -51,12 +53,15 @@ user-select: none;
 }
 
 #buttons {
-	float:left;
+	z-index:7;
+	margin-right:-60px;
+	margin-top:-135px;
+	float:right;
 }
 
 #buttons .back {
-	/*margin-top:45px;
-	*/margin-left:25px;
+	z-index:9;
+	margin-left:25px;
 	float:left;
 	background-image:url('images/buttons/back.png');
 	background-repeat:no-repeat;
@@ -67,8 +72,8 @@ user-select: none;
 
 
 #buttons .forward {
-	/*margin-top:45px;
-	*/margin-right:75px;
+	z-index:9;
+	margin-right:75px;
 	float:right;
 	background-image:url('images/buttons/forward.png');
 	background-repeat:no-repeat;
@@ -126,9 +131,11 @@ width:222px;
 }
 /* action */
 
+#action {
+	z-index:1;
+}
 .action {
-	left:;
-	position:fixed;
+	z-index:1;
 display:inline-block;
 background-image:url("images/action.png");
 background-repeat:no-repeat;
@@ -138,8 +145,7 @@ width:222px;
 }
 
 .action2 {
-	left:;
-	position:fixed;
+	z-index:1;
 display:inline-block;
 background-image:url("images/action2.png");
 background-repeat:no-repeat;
