@@ -70,6 +70,8 @@ user-select: none;
 /* active */
 
 .retireactive {
+	width:400px;
+	margin-right:1px;
 	margin-left:3px;
 	margin-top:80px;
 }
@@ -83,6 +85,8 @@ user-select: none;
 
 
 .resultsactive {
+	width:400px;
+	margin-right:1px;
 	margin-left:3px;
 	margin-top:80px;
 }
@@ -91,7 +95,7 @@ user-select: none;
 	display:inline-block;
 	width:67px;
 	height:31px;
-	;
+	
 }
 /* welcome */
 
