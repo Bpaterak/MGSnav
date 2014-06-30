@@ -45,11 +45,10 @@ user-select: none;
 #nav li {
 
 	white-space: nowrap;
-	display: inline-block;
-	margin-left:4px;
-	margin-right:4px;
+	display: inline-block;;
+	margin-left:3px;
 	height: 69px;
-	width:140px;
+	width:125px;
 }
 
 #buttons {
@@ -116,7 +115,7 @@ background-image:url("images/welcome.png");
 background-repeat:no-repeat;
 background-size: 90%;
 height: 56px;
-width:152px;
+width:132px;
 }
 
 .welcome2 {
@@ -127,7 +126,7 @@ background-image:url("images/welcome2.png");
 background-repeat:no-repeat;
 background-size: 90%;
 height: 56px;
-width:152px;
+width:132px;
 }
 /* action */
 
@@ -141,7 +140,7 @@ background-image:url("images/action.png");
 background-repeat:no-repeat;
 background-size: 90%;
 height: 56px;
-width:152px;
+width:132px;
 }
 
 .action2 {
@@ -151,7 +150,7 @@ background-image:url("images/action2.png");
 background-repeat:no-repeat;
 background-size: 90%;
 height: 56px;
-width:152px;
+width:132px;
 }
 /* retire */
 
@@ -183,7 +182,7 @@ background-image:url("images/retire/1box.png");
 background-size: 90%;
 background-repeat:no-repeat;
 height: 56px;
-width:152px;
+width:132px;
 }
 
 .retirebackground_1 {
@@ -192,7 +191,7 @@ width:152px;
 	position:fixed;
 display:inline-block;
 height: 56px;
-width:152px;
+width:132px;
 }
 .retirebackground_2 {
 
@@ -203,13 +202,13 @@ background-image:url("images/retire/retire2.png");
 background-repeat:no-repeat;
 background-size: 90%;
 height: 56px;
-width:152px;
+width:132px;
 }
 
 
 .retire {
 	z-index: -1;
- margin: 1px 0 0 76px;
+ margin: 1px 0 0 74px;
 position:fixed;
 display:inline-block;
 background-image:url("images/retire/retire.png");
@@ -247,7 +246,7 @@ background-image:url("images/results/1box.png");
 background-repeat:no-repeat;
 background-size: 90%;
 height: 56px;
-width:152px;
+width:132px;
 }
 
 .resultsbackground_1 {
@@ -255,7 +254,7 @@ width:152px;
 position:fixed;
 display:inline-block;
 height: 56px;
-width:152px;
+width:132px;
 }
 
 .resultsbackground_2 {
@@ -266,11 +265,11 @@ background-image:url("images/results/results2.png");
 background-repeat:no-repeat;
 background-size: 90%;
 height: 56px;
-width:152px;
+width:132px;
 }
 .results {
 	z-index:-1;
-	margin: 2px 0 0 71px;
+	margin: 2px 0 0 68px;
 position:fixed;
 display:inline-block;
 background-image:url("images/results/results.png");
