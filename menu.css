@@ -18,6 +18,7 @@ html {
 }      
 
 ul {
+	display:flex;
 list-style: none;
 width:1217px;
 height:89px;
@@ -33,16 +34,16 @@ user-select: none;
 #nav {
 	margin-left:45px;
 	width:1600px;
-	height:89px;
+	height:59px;
 }
 
 #nav li {
 
 	white-space: nowrap;
 	display: inline-block;
-	margin-left:10px;
-	height:89px;
-	width: 230px;
+	/*margin-left:1px;
+	*/height: 69px;
+	width:168px;
 }
 
 
@@ -70,31 +71,26 @@ user-select: none;
 /* active */
 
 .retireactive {
-	width:350px;
-	margin-right:1px;
-	margin-left:3px;
-	margin-top:54px;
+	width:250px;
+	margin-top:38px;
 }
 .retireactive img {
 	margin: 1px 1px 1px 1px;
 	display:inline-block;
 	width:auto;
-	height:31px;
-	;
+	height:21px;
 }
 
 
 .resultsactive {
-	width:300px;
-	margin-right:1px;
-	margin-left:3px;
-	margin-top:54px;
+	width:200px;
+	margin-top:38px;
 }
 .resultsactive img {
 	margin: 1px 1px 1px 1px;
 	display:inline-block;
 	width:auto;
-	height:31px;
+	height:21px;
 	
 }
 /* welcome */
@@ -105,6 +101,7 @@ user-select: none;
 display:inline-block;
 background-image:url("images/welcome.png");
 background-repeat:no-repeat;
+background-size: 70%;
 height: 89px;
 width:222px;
 }
@@ -115,6 +112,7 @@ width:222px;
 display:inline-block;
 background-image:url("images/welcome2.png");
 background-repeat:no-repeat;
+background-size: 70%;
 height: 89px;
 width:222px;
 }
@@ -126,6 +124,7 @@ width:222px;
 display:inline-block;
 background-image:url("images/action.png");
 background-repeat:no-repeat;
+background-size: 70%;
 height: 89px;
 width:222px;
 }
@@ -136,6 +135,7 @@ width:222px;
 display:inline-block;
 background-image:url("images/action2.png");
 background-repeat:no-repeat;
+background-size: 70%;
 height: 89px;
 width:222px;
 }
@@ -144,7 +144,7 @@ width:222px;
 #retire {
 	
 max-height:89px;
-width:300px;
+width:175px;
 overflow: hidden;
 display:inline-block;
 }
@@ -153,6 +153,7 @@ display:inline-block;
 	z-index:99;
 	margin: 100px 5px 0 178px;
 	background-image: url("images/retire/retire_steps.png");
+	background-size: 70%;
 	display:block;
 	width:35px;
 	height:10px;
@@ -164,6 +165,7 @@ display:inline-block;
 	position:fixed;
 display:inline-block;
 background-image:url("images/retire/1box.png");
+background-size: 70%;
 background-repeat:no-repeat;
 height: 89px;
 width:222px;
@@ -184,18 +186,19 @@ width:222px;
 display:inline-block;
 background-image:url("images/retire/retire2.png");
 background-repeat:no-repeat;
+background-size: 70%;
 height: 89px;
 width:222px;
 }
 
 
 .retire {
- margin: 10px 0 0 109px;
+ margin: 8px 0 0 76px;
 position:fixed;
 display:inline-block;
 background-image:url("images/retire/retire.png");
 background-repeat:no-repeat;
-background-size: 70%;
+background-size: 50%;
 width: 175px;
 height:36px;
 }
@@ -203,7 +206,6 @@ height:36px;
 /* results */
 
 #results {
-	margin-left:10px;
 	max-height:116px;
 	width:300px;
 	overflow: hidden;
@@ -215,6 +217,7 @@ height:36px;
 	margin: 100px 1px 0 178px;
 	background-image: url("images/results/results_steps.png");
 	display:inline-block;
+	background-size: 70%;
 	width:35px;
 	height:10px;
 }
@@ -225,6 +228,7 @@ position:fixed;
 display:inline-block;
 background-image:url("images/results/1box.png");
 background-repeat:no-repeat;
+background-size: 70%;
 height: 89px;
 width:222px;
 }
@@ -243,16 +247,17 @@ position:fixed;
 display:inline-block;
 background-image:url("images/results/results2.png");
 background-repeat:no-repeat;
+background-size: 70%;
 height: 89px;
 width:222px;
 }
 .results {
-	margin: 10px 0 0 105px;
+	margin: 10px 0 0 71px;
 position:fixed;
 display:inline-block;
 background-image:url("images/results/results.png");
 background-repeat:no-repeat;
-background-size: 70%;
+background-size: 50%;
 width: 122px;
 height:37px;
 }

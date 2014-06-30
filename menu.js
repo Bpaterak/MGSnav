@@ -1,12 +1,12 @@
 $(document).ready(function () {
     if($(this).find('.retirebackground_1').length)
-    $('#retire').width(350);
+    $('#retire').width(250);
     
     if($(this).find('.resultsbackground_1').length)
-    $('#results').width(300);
+    $('#results').width(220);
     
     $(".main-item").click(function() {
-        $(".main-item").width(230);
+        $(".main-item").width(168);
     });
 
     if ($(this).find('.retirebackground').length)
@@ -34,7 +34,7 @@ $(document).ready(function () {
 
     
         if ($(this).find('.retireactive').length)
-            $(this).width(350);
+            $(this).width(250);
 
 
         if ($("#nav").find('.resultsbackground_1').length)
@@ -53,7 +53,7 @@ $(document).ready(function () {
         $('.resultsactive').fadeIn('fast');
 
         if ($(this).find('.resultsactive').length)
-            $(this).width(300);
+            $(this).width(220);
 
         if ($("#nav").find('.retirebackground_1').length)
             $('.retirebackground_1').removeClass('retirebackground_1').addClass('retirebackground_2').fadeIn();
