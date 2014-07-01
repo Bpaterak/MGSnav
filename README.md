@@ -1,5 +1,5 @@
-<html>
 <blockquote>
+<html>
 <head>
 <style style="text/css">
 html {
@@ -56,6 +56,6 @@ h4 {
 		<li>Switching Working</li>
 		<li>No Animation</li>
 
-</blockquote>
 </body>
 </html>
+</blockquote>
