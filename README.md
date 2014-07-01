@@ -1,3 +1,10 @@
+*MASTER*
+	-Size Fixed
+	-Sub Fits within main icon Size
+	-New Icons
+	-Back and Forward Buttons Need Replaced
+	
+
 *smaller images
 *smaller nav
 *stretch
