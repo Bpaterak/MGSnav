@@ -17,7 +17,7 @@ h4 {
 </style>
 </head>
 <body>
-
+<blockquote>
 <h1>*MASTER FILES*</h1>
 	<ul style="list-style:none;">
 		<li><img src="https://dl.dropboxusercontent.com/u/74458164/menupng/master.png"/></li>
@@ -56,6 +56,6 @@ h4 {
 		<li>Switching Working</li>
 		<li>No Animation</li>
 
-
+</blockquote>
 </body>
 </html>
