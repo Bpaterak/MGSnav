@@ -1,38 +1,58 @@
-*MASTER*
-	-Size Fixed
-	-Sub Fits within main icon Size
-	-New Icons
-	-Back and Forward Buttons Need Replaced
+<html>
+<head>
+<style style="text/css">
+html {
+	font-family: "lato";
+	font-weight: 300;
+	color:#6d6d6d;
+}
+
+h1 {
+	color:#f4811f;
+}
+
+h4 {
+	color:#f4811f;
+}
+</style>
+</head>
+<body>
+
+<h1>*MASTER FILES*</h1>
+<h5><em>6/30/14</em></h5>
+<h5>*All working branches merged </h5>
+<h5>*Everything Is Up-To-Date Per Bob </h5>
+
+<ul>	
+	<li>size Fixed</li>
+	<li>sub Fits within main icon Size</li>
+	<li>new Icons</li>
+	<li>back and Forward Buttons Need Replaced</li>
+</ul>
 	
+<h4>*Previous Commits*</h4>
+	<ul>	
+		<li>smaller images</li>
+		<li>smaller nav</li>
+		<li>stretch</li>
+		<li>added side buttons</li>
+	</ul>
 
-*smaller images
-*smaller nav
-*stretch
-*added side buttons
+<h5><em>6/25/14</em></h5>
+	<ul>
+		<li>merged all working branches</li>
+		<li>all pages work</li>
+		<li>fadeIn js added (sub/tiles)</li>
+		<li>page indecators</li>
+		<li>"Steps" Within box</li>
+	</ul>
+	
+<h5><em>6/24/14</em></h5>
+	<ul>
+		<li>Menu Buttons Working</li>
+		<li>Switching Working</li>
+		<li>No Animation</li>
 
 
-MASTER STYLES BRANCH *
-
-
-
-FORK FROM MASTER*
-
-- Style BRANCH STYLESMASTER->STYLESV1
-- JS BRANCH JSMASTER->JSV1
-
-6/25/14
-*merged all working branches
-	*all pages work
-	*fadeIn js added (sub/tiles)
-	*page indecators
-
-
-
-"Steps" Within box
-
-Menu Buttons Working
-
-Switching Working
-No Animation
-
-6/24/14
+</body>
+</html>
