@@ -64,7 +64,7 @@ user-select: none;
 	float:left;
 	background-image:url('images/buttons/back.png');
 	background-repeat:no-repeat;
-	background-size: 90%;
+	background-size: 80%;
 	width:35px;
 	height:35px;
 }
@@ -76,7 +76,7 @@ user-select: none;
 	float:right;
 	background-image:url('images/buttons/forward.png');
 	background-repeat:no-repeat;
-	background-size: 90%;
+	background-size: 80%;
 	width:35px;
 	height:35px;
 }
