@@ -1,23 +1,5 @@
 <blockquote>
-<html>
-<head>
-<style style="text/css">
-html {
-	font-family: "lato";
-	font-weight: 300;
-	color:#6d6d6d;
-}
 
-h1 {
-	color:#f4811f;
-}
-
-h4 {
-	color:#f4811f;
-}
-</style>
-</head>
-<body>
 <h1>*MASTER FILES*</h1>
 	<ul style="list-style:none;">
 		<li><img src="https://dl.dropboxusercontent.com/u/74458164/menupng/master.png"/></li>
@@ -56,6 +38,5 @@ h4 {
 		<li>Switching Working</li>
 		<li>No Animation</li>
 
-</body>
-</html>
+
 </blockquote>
