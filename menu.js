@@ -6,7 +6,7 @@ $(document).ready(function () {
     $('#results').width(205);
     
     $(".main-item").click(function() {
-        $(".main-item").width(155);
+        $(".main-item").width(125);
     });
 
     if ($(this).find('.retirebackground').length)
