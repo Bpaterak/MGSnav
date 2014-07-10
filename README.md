@@ -1,9 +1,15 @@
 <blockquote>
 
-<h1>*MASTER FILES*</h1>
-	<ul style="list-style:none;">
-		<li><img src="https://dl.dropboxusercontent.com/u/74458164/menupng/master.png"/></li>
-	</ul>
+<h1>*MENU TEST*</h1>
+<h5><em>7/10/14</em></h5>
+<ul>
+	<li>Changed "Action" to "Finish"</li>
+	<li>Added Sub Menu (Action,Report,Client Access,Star Treck) to "Finish"</li>
+	<li>Added "Spacer"</li>
+	<li>Added "more" button with sub (insurance, estate) </li>
+	<li><h5>All Js Animations/Page changes should be working</h5></li>
+</ul>
+
 <h5><em>6/30/14</em></h5>
 <h5>*All working branches merged </h5>
 <h5>*Everything Is Up-To-Date Per Bob </h5>
