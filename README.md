@@ -10,6 +10,7 @@
 	<li>Added color to "more"</li>
 	<li> Added functionality to "more" & sub items</li>
 	<li>*Fixed js for "more", class should act as others*</li>
+	<li>*Fixed "Finish" tab (added 4th square)*</li>
 <h5>Up-to-Date with Bob</h5>
 </ul>
 
