@@ -73,7 +73,17 @@ user-select: none;
 	float:right;
 	background-image:url('images/more.png');
 	background-repeat: no-repeat;
-	background-size: 80%;
+	background-size: 85%;
+	height: 56px;
+	width: 72px;
+	margin-right: -100px;
+	margin-top: 10px;
+}
+.more_2 {
+	float:right;
+	background-image:url('images/more2.png');
+	background-repeat: no-repeat;
+	background-size: 85%;
 	height: 56px;
 	width: 72px;
 	margin-right: -100px;
@@ -155,24 +165,24 @@ user-select: none;
 	margin: 1px 1px 1px 1px;
 	display:inline-block;
 	width:auto;
-	height:18px;
+	height:23px;
 	
 }
 .mtext {
 			z-index:-1;
-	margin: 13px 0 0 42px;
+	margin: 10px 0 0 50px;
 position:fixed;
 display:inline-block;
 background-image:url("images/more/mtext.png");
 background-repeat:no-repeat;
-background-size: 30%;
+background-size: 35%;
 width: 122px;
 height:37px;
 
 }
 .atext {
 		z-index:-1;
-	margin: 2px 0 0 105px;
+	margin: 2px 0 0 85px;
 position:fixed;
 display:inline-block;
 background-image:url("images/sub/finish/finish.png");
@@ -365,7 +375,7 @@ width:132px;
 }
 .results {
 	z-index:-1;
-	margin: 2px 0 0 68px;
+	margin: 2px 0 0 58px;
 position:fixed;
 display:inline-block;
 background-image:url("images/results/results.png");

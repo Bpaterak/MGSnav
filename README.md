@@ -1,6 +1,18 @@
 <blockquote>
 
 <h1>*MENU TEST*</h1>
+<h5><em>7/14/14</em></h5>
+<ul>
+	<li>Changed "Current" sub to "Answer"</li>
+	<li>Changed "Recommended" Sub to "PLayZone"</li>
+	<li>Changed "Client Access" sub to "Share"</li>
+	<li>*Fixed spacing for each mod above*</li>
+	<li>Added color to "more"</li>
+	<li> Added functionality to "more" & sub items</li>
+	<li>*Fixed js for "more", class should act as others*</li>
+<h5>Up-to-Date with Bob</h5>
+</ul>
+
 <h5><em>7/10/14</em></h5>
 <ul>
 	<li>Changed "Action" to "Finish"</li>

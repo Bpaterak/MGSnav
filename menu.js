@@ -9,10 +9,10 @@ $(document).ready(function () {
         $('#space').css('margin-right', 250);
 
     if($(this).find('.resultsbackground_1').length)
-        $('#space').css('margin-right', 285);
+        $('#space').css('margin-right', 304);
 
     if($(this).find('.action_1').length)
-        $('#space').css('margin-right', 230);
+        $('#space').css('margin-right', 268);
 
 
     //active
@@ -23,7 +23,7 @@ $(document).ready(function () {
     $('#retire').width(240);
     
     if($(this).find('.resultsbackground_1').length)
-    $('#results').width(205);
+    $('#results').width(184);
     
     $(".main-item").click(function() {
         $(".main-item").width(125);
@@ -85,6 +85,9 @@ $(document).ready(function () {
         //action
          if ($("#nav").find('.action_1').length)
             $('.action_1').removeClass('action_1').addClass('action_2').fadeIn();
+        //more
+        if ($("#more").find('.more_1').length)
+            $('.more_1').removeClass('more_1').addClass('more_2').fadeIn();
     });
 
 
@@ -108,11 +111,11 @@ $(document).ready(function () {
         $('.more').show();
         $('.moreactive').hide();
        //space
-        $('#space').css('margin-right', 285);
+        $('#space').css('margin-right', 304);
        //other
 
         if ($(this).find('.resultsactive').length)
-            $(this).width(205);
+            $(this).width(184);
         //retire
         if ($("#nav").find('.retirebackground_1').length)
             $('.retirebackground_1').removeClass('retirebackground_1').addClass('retirebackground_2').fadeIn();
@@ -121,6 +124,9 @@ $(document).ready(function () {
          if ($("#nav").find('.action_1').length)
             $('.action_1').removeClass('action_1').addClass('action_2').fadeIn();
 
+        //more
+         if ($("#more").find('.more_1').length)
+            $('.more_1').removeClass('more_1').addClass('more_2').fadeIn();
 
 
 
@@ -145,7 +151,7 @@ $(document).ready(function () {
         $('.more').show();
         $('.moreactive').hide();
         //space
-        $('#space').css('margin-right', 230);
+        $('#space').css('margin-right', 268);
         //other
     
         if ($(this).find('.actionactive').length)
@@ -158,7 +164,12 @@ $(document).ready(function () {
         //results
         if ($("#nav").find('.resultsbackground_1').length)
             $('.resultsbackground_1').removeClass('resultsbackground_1').addClass('resultsbackground_2').fadeIn();
+        //more
+         if ($("#more").find('.more_1').length)
+            $('.more_1').removeClass('more_1').addClass('more_2').fadeIn();
     });
+
+        
 
     $("#more").click(function() {
         //retire
@@ -178,6 +189,8 @@ $(document).ready(function () {
         $('.mtext').show();
         $('.more').hide();
         $('.moreactive').fadeIn('fast');
+        $('.more_2').removeClass('more_2').addClass('more_1').fadeIn();
+
         
         //other
         $(".main-item").width(125);
