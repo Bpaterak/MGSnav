@@ -1,6 +1,18 @@
 <blockquote>
 
 <h1>*MENU TEST*</h1>
+
+<h5><em>7/21/14</em></h5>
+<h6>up-to-date with Bob</h6>
+<ul>
+	<li>Removed "Insurance" from "More" sub</li>
+	<li>Added New "more" icon (four sub icons)</li>
+	<li>Added "Lite,LTC,Dis" in "more" sub</li>
+	<li>Added "lite,LTC,Dis" .htmls</li>
+	<li>*Fixed js/css to reflect changes in sub menues*</li>
+</ul>
+
+
 <h5><em>7/14/14</em></h5>
 <ul>
 	<li>Changed "Current" sub to "Answer"</li>
