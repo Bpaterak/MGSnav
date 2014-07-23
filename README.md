@@ -1,6 +1,11 @@
 <blockquote>
 
 <h1>*Master*</h1>
+<h5><em>7/23/14</em></h5>
+<ul>
+	<li>Changed "playzone" to "changes"</li>
+	<li>Changed "lite" to "life"</li>
+</ul>
 
 <h5><em>7/21/14</em></h5>
 <h6>up-to-date with Bob</h6>
